@@ -89,7 +89,7 @@ DELIMITER ;
 --
 
 CREATE TABLE IF NOT EXISTS `users` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(255) NOT NULL,
   `pass` varchar(255) NOT NULL,
   `email` varchar(255) DEFAULT NULL,
